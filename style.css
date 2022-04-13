@@ -18,9 +18,9 @@ div {
     background: blueviolet;
 }
 
-/* .span6 {
+.span6 {
     grid-column: 1/7;
-} */
+}
 .span1 {
     grid-column: 1/2;
 }
