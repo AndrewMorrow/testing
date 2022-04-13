@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+.span12 {
+    grid-column: 1/13;
+    background: blueviolet;
+}
+
+.span6 {
+    grid-column: 1/7;
+}
+.span1 {
+    grid-column: 1/2;
+}
+.span4 {
+    grid-column: 8/13;
+}
